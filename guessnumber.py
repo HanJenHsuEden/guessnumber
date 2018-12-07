@@ -7,7 +7,7 @@ r = random.randint(low,up)
 count = 0
 while True:
 	count = count + 1
-	n = input('1~100,猜一個數字:')
+	n = input('請在上下限之間猜一個數字:')
 	n = int(n)
 	if n == r:
 		print('終於猜對了')
