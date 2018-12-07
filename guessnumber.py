@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+up = input('請輸入猜測數字的上限')
+low = input('請輸入猜測數字的下限')
+up = int(up)
+low = int(low)
+r = random.randint(low,up)
 count = 0
 while True:
 	count = count + 1
